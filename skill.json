@@ -1,0 +1,12 @@
+{
+  "name": "genpark-realtime-voice-snr-denoiser-filter-skill",
+  "version": "1.0.0",
+  "description": "Voice audio SNR denoiser calculating minimum statistics noise floors and Wiener suppression gains",
+  "author": "GenPark AI Engineering",
+  "license": "MIT",
+  "keywords": ["snr-denoiser", "voice-enhancement", "wiener-filter", "noise-suppression", "audio-dsp", "agent-skills"],
+  "mcp": {
+    "supported": true,
+    "entrypoint": "mcp_server.py"
+  }
+}
